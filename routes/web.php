@@ -13,3 +13,7 @@ Route::get('/booking', function () {
 Route::get('/roomdetails', function () {
     return view('roomdetails');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
