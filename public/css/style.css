@@ -210,4 +210,182 @@ body {
 .contact-us h4 {
 	width: 269px;
 }
+nav {
+	background-color: #D1D0FB;
+	
+	
+}
+
+.fixed-sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	
+}
+
+
+.nav-link {
+	margin-left: 30px;
+}
+
+.nav-link.active {
+	background-color: white;
+	border-bottom-left-radius: 42px;
+	border-top-left-radius: 42px;
+	
+}
+.nav-link.active svg {
+	fill: #162034;
+}
+.nav-link span {
+	color: #162034;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16.5px;
+
+}
+
+.welcome {
+	background-image: url('/image/hero.jpg');
+	width: 701px;
+	height: 211px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 30px;
+	position: relative;
+	
+}
+.welcome h1 {
+	position: absolute;
+	top: 39%;
+	left: 20%;
+ font-size: 30px;
+ font-weight: bold;
+ color: white;
+}
+
+.custom-gradient {
+	background: linear-gradient(to right, rgba(22, 32, 52, 0.7), rgba(22, 32, 52, 0));
+	height: 211px;
+	border-radius: 30px;
+	
+}
+.identity {
+	background-color: #E7E7FF;
+	width: 701px;
+	height: 293px;
+	border-radius: 18px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 3px;
+	margin-top: 50px;
+}
+.identity h3 {
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	padding-top: 10px;
+}
+.content-right {
+	margin-left: 5rem;
+}
+.order h1 {
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	padding-top: 8px;
+
+}
+.order-body a {
+	text-decoration: none;
+	color: #323153;
+}
+.order-title a {
+	text-decoration: none;
+	padding-left: 4rem;
+}
+.order-title span {
+	color: #403DED;
+	font-weight: 500;
+	font-size: 15px;
+	font-family: "Poppins" sans-serif;
+}
+.order-1 {
+	background-color: #D1D0FB;
+	width: 304px;
+	height: 127px;
+	border-radius: 16px;
+	padding: 1.5rem 1rem;
+}
+.order-1 h5 {
+	font-size: 15px;
+	font-weight: 500;
+}
+.order-1 h6 {
+	font-size: 12px;
+	color: rgba(122, 121, 142, 0.4745);
+	
+}
+.order-1 svg {
+	margin-left: 8rem;
+}
+.content-detail {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-detail-items {
+	background-image: url('/image/kamar1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 173px;
+	border-radius: 18px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	
+}
+.content-detail-items h3 {
+	font-size: 15px;
+	font-weight: 500;
+	color: white;
+	padding-top: 5rem;
+}
+.content-detail-items p {
+	color: white;
+	font-size: 9px;
+	
+}
+.content-detail-items a {
+	color: white;
+	padding-top: 5rem;
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.plus {
+	width: 15rem;
+	height: 3rem;
+	border-radius: 3rem;
+	margin-top: -4rem;
+	
+}
+.schedule-title {
+	font-size: 20px;
+	font-weight: 500;
+}
+.schedule-body {
+	background-color: #D1D0FB;
+	width: 100%;
+	height: 691px;
+	border-radius: 16px;
+}
+.logout {
+	margin-top: 23rem;
+	margin-left: 2rem;
+}
+
 
